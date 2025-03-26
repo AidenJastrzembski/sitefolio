@@ -10,13 +10,13 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 export const products = [
   {
     href: "https://aceternity.com",
-    title: "Aceternity",
+    title: "Nucleus",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "A node based ERP system for dynamic workflows and automation.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    stack: ["React", "Tailwindcss", "Python", "Machine Learning"],
+    slug: "nucleus",
     content: (
       <div>
         <p>
@@ -40,13 +40,12 @@ export const products = [
   },
   {
     href: "https://algochurn.com",
-    title: "Algochurn",
-    description:
-      "Practice for technical interviews with hands on coding challenges.",
+    title: "Superstring",
+    description: "Productivity webapp with AI-centric design and features.",
     thumbnail: sidefolioAlgochurn,
     images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+    stack: ["Nextjs", "Tailwindcss", "Supabase", "Machine Learning"],
+    slug: "superstring",
     content: (
       <div>
         <p>
@@ -70,12 +69,12 @@ export const products = [
   },
   {
     href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    title: "Swiftplay",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
+      "Platform for sharing and competiting in speedrunning. Integrated webapp and mobile app.",
     thumbnail: sidefolioMoonbeam,
     images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["Nextjs", "Tailwindcss", "Mongodb", "Lynx"],
     slug: "moonbeam",
     content: (
       <div>
@@ -100,12 +99,12 @@ export const products = [
   },
   {
     href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    title: "Raiden Investments",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
+      "Investment platform for crypto and stocks which leverages machine learning to predict future trends and optimize trading.",
     thumbnail: sidefolioTailwindMasterKit,
     images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["Nextjs", "Python", "Tensorflow", "Django"],
     slug: "tailwindmasterkit",
     content: (
       <div>
