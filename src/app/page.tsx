@@ -14,13 +14,12 @@ export default function Home() {
         Hello there! I&apos;m Aiden Jastrzembski
       </Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a full-stack developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
+        I&apos;m a full-stack developer that loves building products that can
+        help <Highlight>millions of people</Highlight> with their daily lives.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a senior software engineer with{" "}
-        <Highlight>7 years of experience</Highlight> building scalable web apps
+        With years of experience{" "}
+        <Highlight>building scalable products and webapps</Highlight>
         that are performance optimized and good looking.
       </Paragraph>
       <Heading

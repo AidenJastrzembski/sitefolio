@@ -38,7 +38,7 @@ export default function About() {
             />
           </motion.div>
         ))}
-        {/* 
+        {/*
         // <Image
         //   src="https://images.unsplash.com/photo-1692544350322-ac70cfd63614?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
         //   width={200}
@@ -71,47 +71,41 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there, I&apos;m John Doe - a passionate developer, avid writer,
-          and a connoisseur of awesome design. Welcome to my corner of the
-          digital world!
+          Hey there, I&apos;m Aiden Jastrzembski - a passionate developer,
+          mathematician, and logician. Welcome to my corner of the digital
+          world!
         </Paragraph>
         <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
-        </Paragraph>
-
-        <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+          For as long as I can remember, I&apos;ve been in love with the beauty
+          and simplicity of mathematics. I love to see elegant and simple
+          solutions to complex problems (See Eulers identity for one of my
+          favorites). As a developer, I strive to turn problems into functional
+          and elegant solutions.
         </Paragraph>
         <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+          I am not just an engineer who is good with numbers, there are plenty
+          of those to go around. One of my best skills is my ability to
+          communicate complex ideas in a simple and understandable way. I
+          believe that clear communication is key to successful collaboration
+          and problem-solving. I also enjoy teaching and mentoring others, as I
+          believe that sharing knowledge is a great way to learn and grow.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
-          solutions, a fellow writer in search of inspiration, or simply someone
-          who appreciates the finer aspects of design, there&apos;s something
-          here for you.
+          A senior developer once told me that junior developers are amazed by
+          complex solutions, while seniors developers are impressed by
+          simplistic solutions. Since then, I&apos;ve been striving to find the
+          balance between complexity and simplicity in my work.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
+          What sets me apart is my drive to learn. I am always eager to learn
+          more about anything. Whether it is in my personal life or in my
+          professional career, I am always looking for new ways to improve my
+          skills and knowledge.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
-          adventure with you.
+          While you are here, click around! Explore my projects and learn more
+          about my work. Always feel free to reach out if you have any
+          questions.
         </Paragraph>
       </div>
     </div>

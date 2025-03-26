@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Developer",
+  title: "Aiden Jastrzembski - FSE",
   description:
     "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
 };
@@ -26,7 +26,7 @@ export default function RootLayout({
       <body
         className={twMerge(
           inter.className,
-          "flex antialiased h-screen overflow-hidden bg-gray-100"
+          "flex antialiased h-screen overflow-hidden bg-gray-100",
         )}
       >
         <Sidebar />

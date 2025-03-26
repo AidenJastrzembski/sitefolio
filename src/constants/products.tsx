@@ -75,7 +75,7 @@ export const products = [
     thumbnail: sidefolioMoonbeam,
     images: [sidefolioMoonbeam, sidefolioMoonbeam2],
     stack: ["Nextjs", "Tailwindcss", "Mongodb", "Lynx"],
-    slug: "moonbeam",
+    slug: "swiftplay",
     content: (
       <div>
         <p>
@@ -105,7 +105,7 @@ export const products = [
     thumbnail: sidefolioTailwindMasterKit,
     images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
     stack: ["Nextjs", "Python", "Tensorflow", "Django"],
-    slug: "tailwindmasterkit",
+    slug: "raiden",
     content: (
       <div>
         <p>
