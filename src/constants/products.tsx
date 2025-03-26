@@ -1,11 +1,11 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import sidefolioNucleus from "public/images/sidefolio-nucleus-1.png";
+import sidefolioNucleus2 from "public/images/sidefolio-nucleus-2.png";
+import sidefolioSuperstring from "public/images/sidefolio-superstring-1.png";
+import sidefolioSuperstring2 from "public/images/sidefolio-superstring-2.png";
+import sidefolioSwiftplay from "public/images/sidefolio-swiftplay-1.png";
+import sidefolioSwiftplay2 from "public/images/sidefolio-swiftplay-2.png";
+import sidefolioRaiden from "public/images/sidefolio-raiden-1.png";
+import sidefolioRaiden2 from "public/images/sidefolio-raiden-2.png";
 
 export const products = [
   {
@@ -13,8 +13,8 @@ export const products = [
     title: "Nucleus",
     description:
       "A node based ERP system for dynamic workflows and automation.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+    thumbnail: sidefolioNucleus,
+    images: [sidefolioNucleus, sidefolioNucleus2],
     stack: ["React", "Tailwindcss", "Python", "Machine Learning"],
     slug: "nucleus",
     content: (
@@ -42,8 +42,8 @@ export const products = [
     href: "https://algochurn.com",
     title: "Superstring",
     description: "Productivity webapp with AI-centric design and features.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
+    thumbnail: sidefolioSuperstring,
+    images: [sidefolioSuperstring, sidefolioSuperstring2],
     stack: ["Nextjs", "Tailwindcss", "Supabase", "Machine Learning"],
     slug: "superstring",
     content: (
@@ -72,8 +72,8 @@ export const products = [
     title: "Swiftplay",
     description:
       "Platform for sharing and competiting in speedrunning. Integrated webapp and mobile app.",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
+    thumbnail: sidefolioSwiftplay,
+    images: [sidefolioSwiftplay, sidefolioSwiftplay2],
     stack: ["Nextjs", "Tailwindcss", "Mongodb", "Lynx"],
     slug: "swiftplay",
     content: (
@@ -102,8 +102,8 @@ export const products = [
     title: "Raiden Investments",
     description:
       "Investment platform for crypto and stocks which leverages machine learning to predict future trends and optimize trading.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+    thumbnail: sidefolioRaiden,
+    images: [sidefolioRaiden, sidefolioRaiden2],
     stack: ["Nextjs", "Python", "Tensorflow", "Django"],
     slug: "raiden",
     content: (
