@@ -28,14 +28,16 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         key={product.slug}
         className="relative"
       >
-        <Image
-          src={activeImage}
-          alt="thumbnail"
-          height="1000"
-          width="1000"
-          className="rounded-md object-contain"
-        />
-        <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
+        <div className="relative w-full h-[500px]">
+          <Image
+            src={activeImage}
+            alt="thumbnail"
+            fill
+            className="rounded-md object-contain"
+            priority
+          />
+          <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
+        </div>
       </motion.div>
       <div className="flex flex-row justify-center my-8 flex-wrap">
         {product.images.map((image, idx) => (
