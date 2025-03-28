@@ -3,8 +3,8 @@ import { BlogLayout } from "@/components/BlogLayout";
 import { CodeWindow } from "@/components/CodeWindow";
 
 export const meta = {
-  date: "2023-08-18",
-  title: "Lynxjs vs React Native / Flutter",
+  date: "2025-03-28",
+  title: "Lynxjs vs React Native",
   description:
     "Recently I have been working on a project which allowed me to explore Lynx, as someone who has been using React Native and Flutter for mobile development.",
   image:
@@ -14,90 +14,54 @@ export const meta = {
 
 export default (props) => <BlogLayout meta={meta} {...props} />;
 
-Velit cillum fugiat proident pariatur anim proident laborum incididunt magna in labore adipisicing veniam quis. Ut et exercitation dolor in enim quis. Et est excepteur exercitation voluptate in qui duis nulla in anim ut commodo deserunt nisi. Dolor pariatur irure occaecat Lorem mollit veniam adipisicing.
+As an avid user of React, it seems as though by association I should love React Native for mobile development. I mean, it's in the name. But I've found some limitations within React Native that always seem to remind me that I am not using pure React. Lynxjs has been eye-opening for me, as it has shown me what is possible with a pure React approach to mobile development.
 
-Deserunt qui ea do et laborum ad id. Tempor laborum aute fugiat tempor eu. Amet sint sint proident pariatur eiusmod mollit excepteur excepteur. Dolore cillum nulla enim tempor ad.
+With Lynxjs, the learning curve is fairly simple. One of the best features of Lynx is that it allows you to choose your own framework to mimic off of. It is possible to use React, Vue, Svelte, or if you are stuck in the early 2010s, Angular. You can even use specific tools natively, like tailwindcss, which is a must have for me, and isn't available in React Native (without 3rd party libraries).
 
-Laborum quis proident ut anim consectetur. Consequat fugiat eiusmod qui officia duis eu minim cillum do qui. Sunt sit veniam minim ad id sunt magna est enim.
+## Basic Lynx App
 
-Consectetur est sunt minim culpa quis aute officia incididunt ea laboris nulla officia dolor. Cupidatat cupidatat esse veniam cillum labore ullamco aliqua ex. Cillum incididunt ipsum laborum dolor enim incididunt consectetur id consectetur magna. Consequat mollit non ea cupidatat exercitation. Consequat reprehenderit eiusmod nisi ea esse id ut est consequat eu aliqua do quis.
-
-Occaecat commodo velit ea consectetur ut sit. Duis eiusmod ad tempor nisi magna dolore incididunt ea dolore. Commodo proident eiusmod consequat cupidatat consectetur adipisicing dolor commodo tempor labore non dolore Lorem consectetur.
-
-## Code Snippet
-
-<CodeWindow title="BoxesContainer.tsx">
+<CodeWindow title="app.tsx">
 
 ```TSX
-import React from "react";
-import { motion } from "framer-motion";
 
-export const BoxesContainer = () => {
-  const rows = new Array(150).fill(1);
-  const cols = new Array(100).fill(1);
-  let colors = [
-    "--sky-300",
-    "--pink-300",
-    "--green-300",
-    "--yellow-300",
-    "--red-300",
-    "--purple-300",
-    "--blue-300",
-    "--indigo-300",
-    "--violet-300",
-  ];
-  const getRandomColor = () => {
-    return colors[Math.floor(Math.random() * colors.length)];
+import { useState } from "@lynx-js/react";
+
+export function App() {
+  const [count, setCount] = useState(0);
+  const onTap = () => {
+    setCount(count + 1);
   };
 
   return (
-    <div
-      style={{
-        transform: `translate(-40%,-60%) skewX(-48deg) skewY(14deg) scale(0.675) rotate(0deg) translateZ(0)`,
-      }}
-      className="absolute left-1/4 p-4 -top-1/4 flex  -translate-x-1/2 -translate-y-1/2 w-full h-full z-0 "
-    >
-      {rows.map((_, i) => (
-        <motion.div
-          key={`row` + i}
-          className="w-16 h-8  border-l  border-slate-700 relative"
-        >
-          {cols.map((_, j) => (
-            <motion.div
-              whileHover={{
-                backgroundColor: `var(${getRandomColor()})`,
-                transition: { duration: 0 },
-              }}
-              animate={{
-                transition: { duration: 2 },
-              }}
-              key={`col` + j}
-              className="w-16 h-8  border-r border-t border-slate-700 relative"
-            >
-              {j % 2 === 0 && i % 2 === 0 ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="absolute h-6 w-10 -top-[14px] -left-[22px] text-slate-700 stroke-[1px] pointer-events-none"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 6v12m6-6H6"
-                  />
-                </svg>
-              ) : null}
-            </motion.div>
-          ))}
-        </motion.div>
-      ))}
-    </div>
+    <scroll-view>
+      <view className="flex justify-center items-center">
+        <text className="text-white text-7xl font-bold mt-48">Swiftplay</text>
+      </view>
+      <view
+        className="flex flex-col min-h-screen justify-center items-center
+      bg-[radial-gradient(circle_at_bottom,_orange_0%,_purple_40%,_black_80%)]"
+      >
+        <view className="flex flex-col items-center">
+          <text
+            bindtap={onTap}
+            className="text-white bg-black p-4 rounded-lg text-4xl font-bold"
+          >
+            Count : {count}
+          </text>
+        </view>
+      </view>
+    </scroll-view>
   );
-};
+}
 
 ```
 
 </CodeWindow>
+
+Take a look at this code snippet. This is a simple reactive window built with Lynx's idiomantic react approach. As you can tell just by looking, it is almost identical to React, with the differences being the import pathing and the use of "view" instead of "div", "text" instead of "p", etc.
+
+I was able to go from nothing to a full mobile app in 2 weeks, and I never felt extremely challenged. It was a great development experience, even with the lack of support or built in features since it is so new.
+
+One thing that I liked when learning Lynxjs was that it forced me to stay away from AI. Since it is so new, LLMs have no real data on Lynx just yet, so this forced me to read the docs, watch youtube videos, and problem solve on my own. This was so refreshing, since post pandemic, AI has become a crutch for my development and learning process, which I find has made it so that I am not truly learning the new tools I have tried to use.
+
+All things considered, Lynx has been a great tool to learn and I highly recommend picking it up. It is a refreshing thing to learn and use and has shown me what is possible for mobile js frameworks.
