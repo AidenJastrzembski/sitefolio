@@ -18,9 +18,9 @@ export default function Home() {
         help <Highlight>millions of people</Highlight> with their daily lives.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        With years of experience{" "}
+        Despite being young, I have years of experience{" "}
         <Highlight>building scalable products and webapps</Highlight>
-        that are performance optimized and good looking.
+        that are performance optimized while still looking amazing.
       </Paragraph>
       <Heading
         as="h2"

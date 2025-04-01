@@ -1,4 +1,3 @@
-import sidefolioNucleus from "public/images/sidefolio-nucleus-1.png";
 import sidefolioNucleus2 from "public/images/sidefolio-nucleus-2.png";
 import sidefolioSuperstring from "public/images/sidefolio-superstring-1.png";
 import sidefolioSuperstring2 from "public/images/sidefolio-superstring-2.png";
@@ -13,8 +12,8 @@ export const products = [
     title: "Nucleus",
     description:
       "A node based ERP system for dynamic workflows and automation.",
-    thumbnail: sidefolioNucleus,
-    images: [sidefolioNucleus, sidefolioNucleus2],
+    thumbnail: sidefolioNucleus2,
+    images: [sidefolioNucleus2],
     stack: ["React", "Tailwindcss", "Python", "Machine Learning"],
     slug: "nucleus",
     content: (
