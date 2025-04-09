@@ -8,7 +8,7 @@ import sidefolioRaiden2 from "public/images/sidefolio-raiden-2.png";
 
 export const products = [
   {
-    href: "https://aceternity.com",
+    href: "#",
     title: "Nucleus",
     description:
       "A node based ERP system for dynamic workflows and automation.",
@@ -18,21 +18,26 @@ export const products = [
     slug: "nucleus",
     content: (
       <div>
-        <p>Nucleus is a ...</p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          Nucleus is a ERP System built for internal use within Atomic
+          Industries. Many prominant ERP systems on the market aimed towards
+          factories and manufacturing companies are built for linear, static
+          workflows. Atomic Industries needed a dynamic, and open source option,
+          so we built one from scratch.
+        </p>
+        <p>
+          In my time working on Nucleus, I have built many key features of the
+          app. I built the entire front end, which includes a node based
+          interface, that allows users to interact with the database with nodes
+          and edges. I also built AI agents directly into the app, including one
+          that answers questions about the companies current operations, and one
+          that automatically generates jobs into the database based on prompts.
+        </p>
       </div>
     ),
   },
   {
-    href: "https://algochurn.com",
+    href: "#",
     title: "Superstring",
     description: "Productivity webapp with AI-centric design and features.",
     thumbnail: sidefolioSuperstring,
@@ -42,20 +47,20 @@ export const products = [
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          As a college student, varsity esports player, D2 athlete, and
+          engineer, I spent my time in college stressing out about what to do
+          next. I would have 4 todo lists at a time, and none of my calendars
+          could sync in just the right way. Not to mention, nothing on the
+          market really clicked with how my brain worked.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          So, I built Superstring. Superstring is a productivity webapp with AI
+          built into the core of the app. I built it to make sense to me, as a
+          software engineer, and to make it customizable for others. The main
+          focus of Superstring is to provide a seemless experience to users,
+          while integrating into complex workflows and systems. Superstring
+          allows for notes, tasks, events, calendars, kanban, gantt, and so much
+          more. Each page is customizable to display just what you need to see.
         </p>{" "}
       </div>
     ),
@@ -72,20 +77,18 @@ export const products = [
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Swiftplay is a platform for sharing and competing in speedrunning. You
+          can create and join speedrunning communities, where you can discuss in
+          forums, post runs, and compete on the leaderboard.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          In the development of Swiftplay, I was given the title of Lead
+          Frontend Developer, and Lead Mobile Developer. I founded and led my
+          team to create beautiful interfaces. At the start, my team knew no
+          Javascript, and at the end with my help they were able to write react
+          and react native code with ease. This project showcased not only my
+          ability to write amazing and effective code, but also my ability to
+          lead a team to success.
         </p>{" "}
       </div>
     ),
@@ -102,20 +105,18 @@ export const products = [
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Investing is hard. Not everyone can sit around all day and keep an eye
+          on every variable that effects the market. Not to mention most people,
+          just like me when I started investing, have no clue what to look for.
+          So I built Raiden Investments as a way to help with that issue.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Utilizing complex algorithms and machine learning models, Raiden
+          Investments provides personalized investment recommendations and
+          optimized trading strategies. We use sentiment analysis to predict
+          future trends and optimize trading, as well as real time market
+          analysis. Raiden is still a work in progress, but it is a passion
+          project I am very proud of.
         </p>{" "}
       </div>
     ),
