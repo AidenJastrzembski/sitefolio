@@ -1,4 +1,3 @@
-import sidefolioNucleus2 from "public/images/sidefolio-nucleus-2.png";
 import sidefolioSuperstring from "public/images/sidefolio-superstring-1.png";
 import sidefolioSuperstring2 from "public/images/sidefolio-superstring-2.png";
 import sidefolioSwiftplay from "public/images/sidefolio-swiftplay-1.png";
@@ -7,35 +6,6 @@ import sidefolioRaiden from "public/images/sidefolio-raiden-1.png";
 import sidefolioRaiden2 from "public/images/sidefolio-raiden-2.png";
 
 export const products = [
-  {
-    href: "#",
-    title: "Nucleus",
-    description:
-      "A node based ERP system for dynamic workflows and automation.",
-    thumbnail: sidefolioNucleus2,
-    images: [sidefolioNucleus2],
-    stack: ["React", "Tailwindcss", "Python", "Machine Learning"],
-    slug: "nucleus",
-    content: (
-      <div>
-        <p>
-          Nucleus is a ERP System built for internal use within Atomic
-          Industries. Many prominant ERP systems on the market aimed towards
-          factories and manufacturing companies are built for linear, static
-          workflows. Atomic Industries needed a dynamic, and open source option,
-          so we built one from scratch.
-        </p>
-        <p>
-          In my time working on Nucleus, I have built many key features of the
-          app. I built the entire front end, which includes a node based
-          interface, that allows users to interact with the database with nodes
-          and edges. I also built AI agents directly into the app, including one
-          that answers questions about the companies current operations, and one
-          that automatically generates jobs into the database based on prompts.
-        </p>
-      </div>
-    ),
-  },
   {
     href: "#",
     title: "Superstring",
