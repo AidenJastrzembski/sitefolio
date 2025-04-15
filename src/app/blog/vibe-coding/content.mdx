@@ -1,0 +1,39 @@
+import { BlogLayout } from "@/components/BlogLayout";
+
+import { CodeWindow } from "@/components/CodeWindow";
+
+export const meta = {
+  date: "2025-04-15",
+  title: "How I broke free from Vibe Coding.",
+  description:
+    "As I felt more pressured to deliver, I started to rely more on AI. This led me to realize that I had no idea what was actually happening under the hood.",
+  image:
+    "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=1296&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  tags: ["AI", "Education", "Development Practices"],
+};
+
+export default (props) => <BlogLayout meta={meta} {...props} />;
+
+With the recent advancements in AI, and how much it has been pushed onto software developers, it has become increasingly difficult as a junior developer to have good practices and understanding of the underlying technologies. When I first started as a junior developer, I was extremely slow and inefficient at completing my tasks. I started to slowly lean on AI for help. It started with just asking questions, until it eventually got to the point where I couldn't make a change to the codebase without relying on Cursor and Claude.
+
+It became so hard to make simple changes to the codebase, because it was all written by AI. The best way I can explain it is that a junior developer will always try to make some sort of structure to their code so that it makes sense to humans. AI however, just does what needs to be done to make the change work. This means that the codebase was a chaotic mess of types, with each feature having its own unique way of handling data, and converting it from type to type even for the same usecase.
+
+So how did I break free? As a junior developer with no experience outside of AI, it was hard to break free, and I had to take the hit of being slower at completing my tasks. I started with creating some rules for myself.
+
+### Stop using Cursor
+
+Cursor, while an amazing tool, is hard to balance. As someone who has less experience, having cursor tab autofill each line made it so that my brain was turning off and I was unable to think critically about the code. I found myself typing small things like "export default..." and just waiting for cursor to do the rest. So I downloaded Zed, a minimal text editor that allowed me to use the Vim motions I love, without the AI built in.
+
+### Instead of researching using Chatgpt, research using Google
+
+This one is a little straight forward, but might seem like a waste of time. However, the value of reading through docs and stack overflow is much more valueable than the saved time by getting the answer automatically through AI.
+
+### Github contributions everyday
+
+It was my new years resolution to contribute to open source projects and my own personal projects every single day of the year. This has made it so that every day, I spend more time reading through codebases and developing a deeper understanding of how things work. Doing this without AI has allowed me to improve as a developer 10x. (Not to be confused with the illusive 10x engineer).
+
+## The aftermath of Vibe Coding.
+
+While all of this sounds great, I was still left with a terrible codebase in my workplace. It took countless hours of refactoring and debugging to make the project work again, and I was a lot slower to complete my tasks at first. That being said, as the codebase was cleaned up and the code became manageable again, I was able to complete my work much faster and with a much higher quality.
+
+I still use copilot to write my PR summaries though.
