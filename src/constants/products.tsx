@@ -4,8 +4,48 @@ import sidefolioSwiftplay from "public/images/sidefolio-swiftplay-1.png";
 import sidefolioSwiftplay2 from "public/images/sidefolio-swiftplay-2.png";
 import sidefolioRaiden from "public/images/sidefolio-raiden-1.png";
 import sidefolioRaiden2 from "public/images/sidefolio-raiden-2.png";
+import forest1 from "public/images/forest-1.png";
+import forest2 from "public/images/forest-2.png";
 
 export const products = [
+  {
+    href: "#",
+    title: "Forest Neovim",
+    description:
+      "Minimalistic Neovim Plugins that keep your editor clean and organized.",
+    thumbnail: forest2,
+    images: [forest2, forest1],
+    stack: [
+      "Neovim",
+      "Lua",
+      "Open Source Development",
+      "Code Review and Managemnt",
+    ],
+    slug: "forest",
+    content: (
+      <div>
+        <p>
+          As I have swapped over to neovim as my daily editor, I have found how
+          blatantly easy it is to script plugins for it. I have always been a
+          big fan of having a custom workspace and editor, and neovim makes that
+          as easy as possible. For example, something I have always wanted is
+          the ability to save project specific notes directly in my editor. This
+          is something that is super easy to do in neovim. After just 2 days of
+          learning lua, I had a working plugin that I released to the public.
+        </p>
+        <p>
+          So I am including Forest here, not because it was a techinical and
+          difficult project, but because the cool part about it is that it has
+          given me experience in open source development, and managing a large
+          group of people. The Forest project has grown more than I could have
+          ever anticipated. I get new Pull requests and issues every day, and
+          managing and reviewing these has been a skill I have had to develop.
+          It is awesome to see how people love the project I started, and seeing
+          what it has grown into has been truly inspiring.
+        </p>{" "}
+      </div>
+    ),
+  },
   {
     href: "#",
     title: "Superstring",
